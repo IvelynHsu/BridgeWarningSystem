@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/8/5 18:49:16。
+     1>项目“D:\WorkSpace\WorkSpaceVS\NewWarningSystem\NewWarningSystem\NewWarningSystem.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\NewWarningSystem.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt NewWarningSystemDlg.cpp
+         NewWarningSystemDlg.cpp
+     1>d:\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workspace\workspacevs\newwarningsystem\newwarningsystem\newwarningsystemdlg.cpp(425): warning C4101: “pFrame2”: 未引用的局部变量
+     1>d:\workspace\workspacevs\newwarningsystem\newwarningsystem\newwarningsystemdlg.cpp(487): warning C4101: “pFrame”: 未引用的局部变量
+     1>d:\workspace\workspacevs\newwarningsystem\newwarningsystem\newwarningsystemdlg.cpp(564): warning C4101: “pFrame2”: 未引用的局部变量
+     1>d:\workspace\workspacevs\newwarningsystem\newwarningsystem\newwarningsystemdlg.cpp(701): warning C4101: “framename”: 未引用的局部变量
+     1>d:\workspace\workspacevs\newwarningsystem\newwarningsystem\newwarningsystemdlg.cpp(480): warning C4715: “NWPlayVideo”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WorkSpace\WorkSpaceVS\NewWarningSystem\Debug\NewWarningSystem.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS\VS2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\WorkSpace\WorkSpaceVS\NewWarningSystem\Debug\NewWarningSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WorkSpace\WorkSpaceVS\NewWarningSystem\Debug\NewWarningSystem.lib" /MACHINE:X86 Debug\NewWarningSystem.res
+         Debug\AllForTracking.obj
+         Debug\BoatDetecting.obj
+         Debug\BoatTracking.obj
+         Debug\CheckDlg.obj
+         Debug\CvvImage.obj
+         Debug\NewWarningSystem.obj
+         Debug\NewWarningSystemDlg.obj
+         Debug\RiverDlg.obj
+         Debug\SettingDlg.obj
+         Debug\Stabilition.obj
+         Debug\stdafx.obj
+         Debug\VideoPlayer.obj
+         Debug\WarningNoverlDlg.obj
+         NewWarningSystem.vcxproj -> D:\WorkSpace\WorkSpaceVS\NewWarningSystem\Debug\NewWarningSystem.exe
+     1>已完成生成项目“D:\WorkSpace\WorkSpaceVS\NewWarningSystem\NewWarningSystem\NewWarningSystem.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.74
